@@ -1,79 +1,256 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.2b10f603789b9930e865.css">@import url(https://use.fontawesome.com/releases/v5.12.0/css/all.css);code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.token.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt"}img{max-width:100%;padding:0;margin:0 0 1.45rem}h1{font-size:2.25rem}h1,h2{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{padding:0;margin:0 0 1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{padding:0;margin:0 0 1.45rem}ol,ul{padding:0;margin:0 0 1.45rem 1.45rem;list-style-position:outside;list-style-image:none}dd,dl,figure,p{padding:0;margin:0 0 1.45rem}pre{margin:0 0 1.45rem;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{padding:0;margin:0 0 1.45rem}blockquote{padding:0;margin:0 1.45rem 1.45rem}form,iframe,noscript{padding:0;margin:0 0 1.45rem}hr{padding:0;margin:0 0 calc(1.45rem - 1px);background:rgba(0,0,0,.2);border:none;height:1px}address{padding:0;margin:0 0 1.45rem}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:.2em 0}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}.md-code-title{position:relative;margin-bottom:-.7rem;padding:.5em 1em;font-family:Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;background-color:#272822;color:#fff;z-index:2;border-top-left-radius:.3em;border-top-right-radius:.3em;border-bottom:.3px solid #5b5b5b}pre[class*=language-]{border-radius:.3em}code[class*=language-]{margin-right:5px}@media (max-width:768px){pre[class*=language-]{padding:2em 1em 1em}}.gatsby-highlight{position:relative}.gatsby-highlight,.gatsby-highlight pre[class*=language-]{-webkit-overflow-scrolling:touch}.gatsby-highlight pre[class*=language-]:before{background:#000;border-radius:0 0 .25rem .25rem;color:#fff;font-size:12px;letter-spacing:.025rem;padding:.1rem .5rem;position:absolute;right:1rem;text-align:right;text-transform:uppercase;top:0}.gatsby-highlight pre[class=language-css]:before{background:#0076d6;color:#000}.gatsby-highlight pre[class=language-javascript]:before,.gatsby-highlight pre[class=language-js]:before{content:"js";background:#f7df1e;color:#000}.gatsby-highlight pre[class=language-jsx]:before{content:"jsx";background:#61dafb}.gatsby-highlight pre[class=language-ts]:before,.gatsby-highlight pre[class=language-typescript]:before{content:"ts";background:#294e80}.gatsby-highlight pre[class=language-tsx]:before{content:"tsx";background:#294e80}.gatsby-highlight pre[class=language-graphql]:before{content:"GraphQL";background:#e10098}.gatsby-highlight pre[class=language-html]:before{content:"html";background:#005a9c}.gatsby-highlight pre[class=language-css]:before{content:"css";background:#ff9800}.gatsby-highlight pre[class=language-mdx]:before{content:"mdx";background:#f9ac00}.gatsby-highlight pre[class=language-shell]:before{content:"shell"}.gatsby-highlight pre[class=language-sh]:before{content:"sh"}.gatsby-highlight pre[class=language-bash]:before{content:"bash"}.gatsby-highlight pre[class=language-yaml]:before{content:"yaml";background:#ffa8df}.gatsby-highlight pre[class=language-markdown]:before{content:"md"}.gatsby-highlight pre[class=language-json5]:before,.gatsby-highlight pre[class=language-json]:before{content:"json";background:#f7df1e;color:#000}.gatsby-highlight pre[class=language-diff]:before{content:"diff";background:#e6ffed}.gatsby-highlight pre[class=language-text]:before{content:"text";background:"white"}.gatsby-highlight pre[class=language-flow]:before{content:"flow";background:#e8bd36}</style><meta name="generator" content="Gatsby 2.23.12"/><title data-react-helmet="true">Routing Controllers | SourceVortex</title><meta data-react-helmet="true" name="description" content="Blog pessoal sobre tecnologia, programação, distribuições Linux e muito mais!"/><meta data-react-helmet="true" property="og:title" content="Routing Controllers"/><meta data-react-helmet="true" property="og:description" content="Blog pessoal sobre tecnologia, programação, distribuições Linux e muito mais!"/><meta data-react-helmet="true" property="og:url" content="https://sourcevortex.com.br/blog/2020/08/routing-controllers"/><meta data-react-helmet="true" property="og:image" content="https://sourcevortex.com.br/images/2020/08/routing-controller.png"/><meta data-react-helmet="true" property="og:image:alt" content="ElectronJS template image"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@chsjr1996"/><meta data-react-helmet="true" name="twitter:title" content="Routing Controllers"/><meta data-react-helmet="true" name="twitter:description" content="Blog pessoal sobre tecnologia, programação, distribuições Linux e muito mais!"/><link rel="canonical" href="https://sourcevortex.com.br/blog/2020/08/routing-controllers" data-baseprotocol="https:" data-basehost="sourcevortex.com.br"/><link rel="icon" href="/favicon-32x32.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=b872080d870bb82cc1b9899ced6a6715"/><style data-styled="" data-styled-version="5.1.1">.gegkRb{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row !important;-ms-flex-direction:row !important;flex-direction:row !important;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:50px;background-color:#111111 !important;}/*!sc*/
-data-styled.g1[id="HeaderStyles__Container-sc-11i8xy9-0"]{content:"gegkRb,"}/*!sc*/
-.ghlDcU{color:white;-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
-data-styled.g2[id="HeaderStyles__TextLink-sc-11i8xy9-1"]{content:"ghlDcU,"}/*!sc*/
-.fgTOxy{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:10px;}/*!sc*/
-.fgTOxy .sv-left-logo{display:none;}/*!sc*/
-@media (min-width:1024px){.fgTOxy .sv-left-logo{display:block;}}/*!sc*/
-data-styled.g3[id="HeaderStyles__LeftContainer-sc-11i8xy9-2"]{content:"fgTOxy,"}/*!sc*/
-@media (min-width:1024px){.bDAcAn{display:none;}}/*!sc*/
-data-styled.g4[id="HeaderStyles__CenterContainer-sc-11i8xy9-3"]{content:"bDAcAn,"}/*!sc*/
-.gwCPQH{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-right:15px;}/*!sc*/
-data-styled.g5[id="HeaderStyles__RightContainer-sc-11i8xy9-4"]{content:"gwCPQH,"}/*!sc*/
-.hwQvKr{font-size:28px !important;font-weight:bold !important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}/*!sc*/
-data-styled.g7[id="HeaderStyles__BlogLogo-sc-11i8xy9-6"]{content:"hwQvKr,"}/*!sc*/
-.kCBaYH{display:none !important;}/*!sc*/
-@media (min-width:1024px){.kCBaYH{margin-left:30px;}}/*!sc*/
-data-styled.g9[id="HeaderStyles__StySearchIcon-sc-11i8xy9-8"]{content:"kCBaYH,"}/*!sc*/
-.fERyae{position:fixed;width:48px;height:48px;right:15px;bottom:15px;z-index:2;}/*!sc*/
-data-styled.g26[id="FloatEditStyles__Container-sc-8lzt4m-0"]{content:"fERyae,"}/*!sc*/
-.fHpCEe{color:white;-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
-data-styled.g27[id="FloatEditStyles__StyLink-sc-8lzt4m-1"]{content:"fHpCEe,"}/*!sc*/
-.PmQYs{background-color:#111111 !important;}/*!sc*/
-.PmQYs .MuiFab-label{color:white;}/*!sc*/
-data-styled.g28[id="FloatEditStyles__StyFab-sc-8lzt4m-2"]{content:"PmQYs,"}/*!sc*/
-.gryoi{position:relative;margin:0 auto;padding:50px 0 18px 0;max-width:960px;}/*!sc*/
-@media (min-width:768px){.gryoi{max-width:100%;}}/*!sc*/
-data-styled.g29[id="BlogLayoutStyles__Container-sc-10h0rvj-0"]{content:"gryoi,"}/*!sc*/
-.buKFig{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}/*!sc*/
-data-styled.g30[id="BadgesStyles__Container-ca3d0s-0"]{content:"buKFig,"}/*!sc*/
-.xoDX{padding:5px;height:27px;margin:0 10px;border-radius:0.3em;background-color:#294e80;border-radius:0.3em;padding:3px 10px;}/*!sc*/
-.eNugnP{padding:5px;height:27px;margin:0 10px;border-radius:0.3em;background-color:#efd81d;border-radius:0.3em;padding:3px 10px;}/*!sc*/
-.jFHXDI{padding:5px;height:27px;margin:0 10px;border-radius:0.3em;background-color:#111;border-radius:0.3em;padding:3px 10px;}/*!sc*/
-data-styled.g31[id="BadgesStyles__Badge-ca3d0s-1"]{content:"xoDX,eNugnP,jFHXDI,"}/*!sc*/
-.gStDpH{text-align:center;font-size:18px !important;line-height:22px !important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:white;}/*!sc*/
-.gPDLtX{text-align:center;font-size:18px !important;line-height:22px !important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:black;}/*!sc*/
-data-styled.g32[id="BadgesStyles__BadgeText-ca3d0s-2"]{content:"gStDpH,gPDLtX,"}/*!sc*/
-.ctjyuZ .MuiPopover-paper{background-color:#111;margin-top:10px;padding:5px 20px;}/*!sc*/
-data-styled.g33[id="BadgesStyles__BadgeMorePopover-ca3d0s-3"]{content:"ctjyuZ,"}/*!sc*/
-.VfeLv{width:40px;height:40px;background-color:#111;border-radius:0.3em;}/*!sc*/
-.VfeLv a{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;height:100%;}/*!sc*/
-data-styled.g35[id="BackLinkStyles__Container-sc-4tls06-0"]{content:"VfeLv,"}/*!sc*/
-.fGQBfO{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;}/*!sc*/
-@media (min-width:768px){.fGQBfO{height:450px;background-image:url('/images/generic/default.png');background-size:cover;background-repeat:none;background-attachment:fixed;box-shadow:0px -5px 10px 0px #444 inset;}}/*!sc*/
-data-styled.g39[id="BlogTemplateStyles__CoverContainer-sc-1vmz8r7-1"]{content:"fGQBfO,"}/*!sc*/
-.drRTZt{width:100%;max-width:670px;}/*!sc*/
-@media (min-width:768px){.drRTZt{border-radius:0.3em 0.3em 0 0;}}/*!sc*/
-data-styled.g40[id="BlogTemplateStyles__CoverImage-sc-1vmz8r7-2"]{content:"drRTZt,"}/*!sc*/
-.kagSPF{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;max-width:670px;height:75px;}/*!sc*/
-@media (min-width:768px){.kagSPF{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;background-color:#111111aa;border-radius:0 0 0.3em 0.3em;}}/*!sc*/
-data-styled.g41[id="BlogTemplateStyles__TitleContainer-sc-1vmz8r7-3"]{content:"kagSPF,"}/*!sc*/
-.DcHjV{margin-top:5px;font-size:22px;text-align:center;}/*!sc*/
-@media (min-width:768px){.DcHjV{margin:0 0 0 15px;color:white;font-size:28px;}}/*!sc*/
-data-styled.g42[id="BlogTemplateStyles__Title-sc-1vmz8r7-4"]{content:"DcHjV,"}/*!sc*/
-.kIrOxl{max-width:960px;margin:30px auto 30px auto;padding:0 1rem;}/*!sc*/
-@media (min-width:768px){.kIrOxl{padding:0 1rem;}}/*!sc*/
-data-styled.g48[id="BlogTemplateStyles__PostInfoContainer-sc-1vmz8r7-10"]{content:"kIrOxl,"}/*!sc*/
-.cUUUUA{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
-data-styled.g49[id="BlogTemplateStyles__PostInfoSubContainer-sc-1vmz8r7-11"]{content:"cUUUUA,"}/*!sc*/
-.hcZFEb{font-size:14px;margin:0 0 0 10px;color:gray;}/*!sc*/
-@media (min-width:768px){.hcZFEb{font-size:18px;}}/*!sc*/
-data-styled.g51[id="BlogTemplateStyles__PostDate-sc-1vmz8r7-13"]{content:"hcZFEb,"}/*!sc*/
-.jiLyJH{max-width:960px;margin:0 auto;padding:0 1rem;}/*!sc*/
-.jiLyJH p{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;}/*!sc*/
-@media (min-width:768px){.jiLyJH{padding:0 1rem;}}/*!sc*/
-data-styled.g52[id="BlogTemplateStyles__PostContainer-sc-1vmz8r7-14"]{content:"jiLyJH,"}/*!sc*/
-.jfBhTn{max-width:960px;margin:0 auto;padding:15px 1rem 0 1rem;border-top:1px solid black;}/*!sc*/
-.jfBhTn a{-webkit-text-decoration:none;text-decoration:none;color:#111;}/*!sc*/
-@media (min-width:768px){.jfBhTn{padding:25px 1rem 0 1rem;}}/*!sc*/
-data-styled.g53[id="BlogTemplateStyles__FooterContainer-sc-1vmz8r7-15"]{content:"jfBhTn,"}/*!sc*/
-</style><link as="script" rel="preload" href="/webpack-runtime-1d169cd2627a106c734a.js"/><link as="script" rel="preload" href="/framework-95b680cb3190aa9bfe59.js"/><link as="script" rel="preload" href="/app-b646d61895300b3c4f73.js"/><link as="script" rel="preload" href="/styles-89fd2ae28bdf06750a71.js"/><link as="script" rel="preload" href="/29107295-3b1a3b15a9f64eac8b0f.js"/><link as="script" rel="preload" href="/commons-462d7f5fe6a41d6e3114.js"/><link as="script" rel="preload" href="/823d2cd91e3ab101de8462f2bb2e0239c0ee9d02-848b62abcb50a7bd42e1.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-tsx-adcda107eb01055857db.js"/><link as="fetch" rel="preload" href="/page-data/blog/2020/08/routing-controllers/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary HeaderStyles__Container-sc-11i8xy9-0 gegkRb mui-fixed MuiPaper-elevation4"><div class="HeaderStyles__LeftContainer-sc-11i8xy9-2 fgTOxy"><a class="HeaderStyles__TextLink-sc-11i8xy9-1 ghlDcU sv-left-logo" href="/"><p class="MuiTypography-root HeaderStyles__BlogLogo-sc-11i8xy9-6 hwQvKr MuiTypography-body1">SourceVortex</p></a></div><div class="HeaderStyles__CenterContainer-sc-11i8xy9-3 bDAcAn"><a class="HeaderStyles__TextLink-sc-11i8xy9-1 ghlDcU" href="/"><p class="MuiTypography-root HeaderStyles__BlogLogo-sc-11i8xy9-6 hwQvKr MuiTypography-body1">SourceVortex</p></a></div><div class="HeaderStyles__RightContainer-sc-11i8xy9-4 gwCPQH"><svg class="MuiSvgIcon-root HeaderStyles__StySearchIcon-sc-11i8xy9-8 kCBaYH" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></header><div class="BlogLayoutStyles__Container-sc-10h0rvj-0 gryoi"><main><div class="BlogTemplateStyles__Container-sc-1vmz8r7-0 bNgvle"><div class="BlogTemplateStyles__CoverContainer-sc-1vmz8r7-1 fGQBfO"><div class="BlogTemplateStyles__CoverImage-sc-1vmz8r7-2 drRTZt gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:50%"></div><noscript><picture><source srcset="/static/c046ceae490cfed5458bd178f3ea4dfc/e1953/routing-controller.png 250w,
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.b8221ec0ff064b96422d.css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:none;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.token.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.23.12"/><title data-react-helmet="true">Routing Controllers | SourceVortex</title><meta data-react-helmet="true" name="description" content="Blog pessoal sobre tecnologia, programação, distribuições Linux e muito mais!"/><meta data-react-helmet="true" property="og:title" content="Routing Controllers"/><meta data-react-helmet="true" property="og:description" content="Blog pessoal sobre tecnologia, programação, distribuições Linux e muito mais!"/><meta data-react-helmet="true" property="og:url" content="https://sourcevortex.com.br/blog/2020/08/routing-controllers"/><meta data-react-helmet="true" property="og:image" content="https://sourcevortex.com.br/images/2020/08/routing-controller.png"/><meta data-react-helmet="true" property="og:image:alt" content="ElectronJS template image"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@chsjr1996"/><meta data-react-helmet="true" name="twitter:title" content="Routing Controllers"/><meta data-react-helmet="true" name="twitter:description" content="Blog pessoal sobre tecnologia, programação, distribuições Linux e muito mais!"/><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="canonical" href="https://sourcevortex.com.br/blog/2020/08/routing-controllers" data-baseprotocol="https:" data-basehost="sourcevortex.com.br"/><link rel="icon" href="/favicon-32x32.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=b872080d870bb82cc1b9899ced6a6715"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=b872080d870bb82cc1b9899ced6a6715"/><style data-styled="" data-styled-version="5.1.1">.bQiNJJ{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row !important;-ms-flex-direction:row !important;flex-direction:row !important;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:50px;background-color:#111111 !important;border-radius:5px 5px 0 0;box-shadow:1px 1px 15px 1px #555 !important;}/*!sc*/
+data-styled.g1[id="HeaderStyles__Container-sc-4f1uz7-0"]{content:"bQiNJJ,"}/*!sc*/
+.eIoNJO{color:white;-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+data-styled.g2[id="HeaderStyles__TextLink-sc-4f1uz7-1"]{content:"eIoNJO,"}/*!sc*/
+.hqRgCM{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:10px;}/*!sc*/
+.hqRgCM .sv-left-logo{display:none;}/*!sc*/
+@media (min-width:1024px){.hqRgCM .sv-left-logo{display:block;}}/*!sc*/
+data-styled.g3[id="HeaderStyles__LeftContainer-sc-4f1uz7-2"]{content:"hqRgCM,"}/*!sc*/
+@media (min-width:1024px){.ifjTTZ{display:none;}}/*!sc*/
+data-styled.g4[id="HeaderStyles__CenterContainer-sc-4f1uz7-3"]{content:"ifjTTZ,"}/*!sc*/
+.hJwMUt{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-right:15px;}/*!sc*/
+data-styled.g5[id="HeaderStyles__RightContainer-sc-4f1uz7-4"]{content:"hJwMUt,"}/*!sc*/
+.jxNXEB{font-size:28px !important;font-weight:bold !important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}/*!sc*/
+data-styled.g7[id="HeaderStyles__BlogLogo-sc-4f1uz7-6"]{content:"jxNXEB,"}/*!sc*/
+.bOGhkd{display:none !important;}/*!sc*/
+@media (min-width:1024px){.bOGhkd{margin-left:30px;}}/*!sc*/
+data-styled.g9[id="HeaderStyles__StySearchIcon-sc-4f1uz7-8"]{content:"bOGhkd,"}/*!sc*/
+.fOlVeb{position:relative;padding:10px;height:100vh;}/*!sc*/
+data-styled.g17[id="BlogLayoutStyles__Frame-t80b87-0"]{content:"fOlVeb,"}/*!sc*/
+.gfSbPw{height:calc(100vh - 70px);position:relative;margin:0 auto;padding-bottom:18px;max-width:960px;border:1px solid gray;border-radius:0 0 5px 5px;overflow-y:scroll;box-shadow:1px 1px 15px 1px #555;}/*!sc*/
+@media (min-width:768px){.gfSbPw{max-width:100%;}}/*!sc*/
+data-styled.g18[id="BlogLayoutStyles__Container-t80b87-1"]{content:"gfSbPw,"}/*!sc*/
+.fjQdKK{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}/*!sc*/
+data-styled.g19[id="BadgesStyles__Container-sc-1w5ma1w-0"]{content:"fjQdKK,"}/*!sc*/
+.erBJuh{padding:5px;height:27px;margin:0 10px;border-radius:0.3em;background-color:#294e80;border-radius:0.3em;padding:3px 10px;}/*!sc*/
+.kcNpKF{padding:5px;height:27px;margin:0 10px;border-radius:0.3em;background-color:#efd81d;border-radius:0.3em;padding:3px 10px;}/*!sc*/
+.kFxMIC{padding:5px;height:27px;margin:0 10px;border-radius:0.3em;background-color:#111;border-radius:0.3em;padding:3px 10px;}/*!sc*/
+data-styled.g20[id="BadgesStyles__Badge-sc-1w5ma1w-1"]{content:"erBJuh,kcNpKF,kFxMIC,"}/*!sc*/
+.dFpuZZ{text-align:center;font-size:18px !important;line-height:22px !important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:white;}/*!sc*/
+.dDaeip{text-align:center;font-size:18px !important;line-height:22px !important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:black;}/*!sc*/
+data-styled.g21[id="BadgesStyles__BadgeText-sc-1w5ma1w-2"]{content:"dFpuZZ,dDaeip,"}/*!sc*/
+.kycSfT .MuiPopover-paper{background-color:#111;margin-top:10px;padding:5px 20px;}/*!sc*/
+data-styled.g22[id="BadgesStyles__BadgeMorePopover-sc-1w5ma1w-3"]{content:"kycSfT,"}/*!sc*/
+.cjmdPr{width:40px;height:40px;background-color:#111;border-radius:0.3em;}/*!sc*/
+.cjmdPr a{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;height:100%;}/*!sc*/
+data-styled.g24[id="BackLinkStyles__Container-ddu4of-0"]{content:"cjmdPr,"}/*!sc*/
+.uSdrT{display:none;width:40px;height:40px;background-color:#111;border-radius:0.3em;}/*!sc*/
+.uSdrT a{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;height:100%;}/*!sc*/
+data-styled.g27[id="ButtonEditStyles__Container-sc-45h9ii-0"]{content:"uSdrT,"}/*!sc*/
+.bGkscH{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;}/*!sc*/
+@media (min-width:768px){.bGkscH{height:450px;background-image:url('/images/generic/default.png');background-size:cover;background-repeat:none;background-attachment:fixed;box-shadow:0px -5px 10px 0px #444 inset;}}/*!sc*/
+data-styled.g31[id="BlogTemplateStyles__CoverContainer-sc-1uzxn4d-1"]{content:"bGkscH,"}/*!sc*/
+.fehBjg{width:100%;max-width:670px;}/*!sc*/
+@media (min-width:768px){.fehBjg{border-radius:0.3em 0.3em 0 0;}}/*!sc*/
+data-styled.g32[id="BlogTemplateStyles__CoverImage-sc-1uzxn4d-2"]{content:"fehBjg,"}/*!sc*/
+.gYHPAU{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;max-width:670px;height:75px;}/*!sc*/
+@media (min-width:768px){.gYHPAU{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;background-color:#111111aa;border-radius:0 0 0.3em 0.3em;}}/*!sc*/
+data-styled.g33[id="BlogTemplateStyles__TitleContainer-sc-1uzxn4d-3"]{content:"gYHPAU,"}/*!sc*/
+.gGmLSg{margin-top:5px;font-size:22px;text-align:center;}/*!sc*/
+@media (min-width:768px){.gGmLSg{margin:0 0 0 15px;color:white;font-size:28px;}}/*!sc*/
+data-styled.g34[id="BlogTemplateStyles__Title-sc-1uzxn4d-4"]{content:"gGmLSg,"}/*!sc*/
+.iNxFvU{max-width:960px;margin:30px auto 30px auto;padding:0 1rem;}/*!sc*/
+@media (min-width:768px){.iNxFvU{padding:0 1rem;}}/*!sc*/
+data-styled.g40[id="BlogTemplateStyles__PostInfoContainer-sc-1uzxn4d-10"]{content:"iNxFvU,"}/*!sc*/
+.iiJEGh{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
+data-styled.g41[id="BlogTemplateStyles__PostInfoSubContainer-sc-1uzxn4d-11"]{content:"iiJEGh,"}/*!sc*/
+.ljqZgu{font-size:14px;margin:0 0 0 10px;color:gray;}/*!sc*/
+@media (min-width:768px){.ljqZgu{font-size:18px;}}/*!sc*/
+data-styled.g43[id="BlogTemplateStyles__PostDate-sc-1uzxn4d-13"]{content:"ljqZgu,"}/*!sc*/
+.gmVBKO{max-width:960px;margin:0 auto;padding:0 1rem;}/*!sc*/
+.gmVBKO p{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;}/*!sc*/
+@media (min-width:768px){.gmVBKO{padding:0 1rem;}}/*!sc*/
+data-styled.g44[id="BlogTemplateStyles__PostContainer-sc-1uzxn4d-14"]{content:"gmVBKO,"}/*!sc*/
+.gyCFhy{margin:0 auto;padding:15px 1rem 0 1rem;border-top:1px solid #aaa;}/*!sc*/
+.gyCFhy a{-webkit-text-decoration:none;text-decoration:none;color:#111;}/*!sc*/
+@media (min-width:768px){.gyCFhy{padding:25px 1rem 0 1rem;}}/*!sc*/
+data-styled.g45[id="BlogTemplateStyles__FooterContainer-sc-1uzxn4d-15"]{content:"gyCFhy,"}/*!sc*/
+.lhLxEk{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}/*!sc*/
+data-styled.g46[id="BlogTemplateStyles__FooterButtonsContainer-sc-1uzxn4d-16"]{content:"lhLxEk,"}/*!sc*/
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}/*!sc*/
+body{margin:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}/*!sc*/
+html,body{overflow-y:hidden !important;}/*!sc*/
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block;}/*!sc*/
+audio,canvas,progress,video{display:inline-block;}/*!sc*/
+audio:not([controls]){display:none;height:0;}/*!sc*/
+progress{vertical-align:baseline;}/*!sc*/
+[hidden],template{display:none;}/*!sc*/
+a{background-color:transparent;-webkit-text-decoration-skip:objects;}/*!sc*/
+a:active,a:hover{outline-width:0;}/*!sc*/
+abbr[title]{border-bottom:none;-webkit-text-decoration:underline;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;}/*!sc*/
+b,strong{font-weight:inherit;font-weight:bolder;}/*!sc*/
+dfn{font-style:italic;}/*!sc*/
+h1{font-size:2em;margin:0.67em 0;}/*!sc*/
+mark{background-color:#ff0;color:#000;}/*!sc*/
+small{font-size:80%;}/*!sc*/
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}/*!sc*/
+sub{bottom:-0.25em;}/*!sc*/
+sup{top:-0.5em;}/*!sc*/
+img{border-style:none;}/*!sc*/
+svg:not(:root){overflow:hidden;}/*!sc*/
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}/*!sc*/
+figure{margin:1em 40px;}/*!sc*/
+hr{box-sizing:content-box;height:0;overflow:visible;}/*!sc*/
+button,input,optgroup,select,textarea{font:inherit;margin:0;}/*!sc*/
+optgroup{font-weight:700;}/*!sc*/
+button,input{overflow:visible;}/*!sc*/
+button,select{text-transform:none;}/*!sc*/
+[type='reset'],[type='submit'],button,html [type='button']{-webkit-appearance:button;}/*!sc*/
+[type='button']::-moz-focus-inner,[type='reset']::-moz-focus-inner,[type='submit']::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0;}/*!sc*/
+[type='button']:-moz-focusring,[type='reset']:-moz-focusring,[type='submit']:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText;}/*!sc*/
+fieldset{border:1px solid silver;margin:0 2px;padding:0.35em 0.625em 0.75em;}/*!sc*/
+legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal;}/*!sc*/
+textarea{overflow:auto;}/*!sc*/
+[type='checkbox'],[type='radio']{box-sizing:border-box;padding:0;}/*!sc*/
+[type='number']::-webkit-inner-spin-button,[type='number']::-webkit-outer-spin-button{height:auto;}/*!sc*/
+[type='search']{-webkit-appearance:textfield;outline-offset:-2px;}/*!sc*/
+[type='search']::-webkit-search-cancel-button,[type='search']::-webkit-search-decoration{-webkit-appearance:none;}/*!sc*/
+::-webkit-input-placeholder{color:inherit;opacity:0.54;}/*!sc*/
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}/*!sc*/
+html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll;}/*!sc*/
+*{box-sizing:inherit;}/*!sc*/
+*:before{box-sizing:inherit;}/*!sc*/
+*:after{box-sizing:inherit;}/*!sc*/
+body{color:hsla(0,0%,0%,0.8);font-family:georgia,serif;font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:'kern','liga','clig','calt';-ms-font-feature-settings:'kern','liga','clig','calt';-webkit-font-feature-settings:'kern','liga','clig','calt';font-feature-settings:'kern','liga','clig','calt';}/*!sc*/
+img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:2.25rem;line-height:1.1;}/*!sc*/
+h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:1.62671rem;line-height:1.1;}/*!sc*/
+h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:1.38316rem;line-height:1.1;}/*!sc*/
+h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}/*!sc*/
+h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:0.85028rem;line-height:1.1;}/*!sc*/
+h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:bold;text-rendering:optimizeLegibility;font-size:0.78405rem;line-height:1.1;}/*!sc*/
+hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+ul{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}/*!sc*/
+ol{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}/*!sc*/
+dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+pre{margin-left:0;margin-right:0;margin-top:0;margin-bottom:1.45rem;font-size:0.85rem;line-height:1.42;background:hsla(0,0%,0%,0.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem;}/*!sc*/
+table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%;}/*!sc*/
+fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+blockquote{margin-left:1.45rem;margin-right:1.45rem;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.45rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}/*!sc*/
+address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}/*!sc*/
+b{font-weight:bold;}/*!sc*/
+strong{font-weight:bold;}/*!sc*/
+dt{font-weight:bold;}/*!sc*/
+th{font-weight:bold;}/*!sc*/
+li{margin-bottom:calc(1.45rem / 2);}/*!sc*/
+ol li{padding-left:0;}/*!sc*/
+ul li{padding-left:0;}/*!sc*/
+li > ol{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}/*!sc*/
+li > ul{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}/*!sc*/
+blockquote *:last-child{margin-bottom:0;}/*!sc*/
+li *:last-child{margin-bottom:0;}/*!sc*/
+p *:last-child{margin-bottom:0;}/*!sc*/
+li > p{margin-bottom:calc(1.45rem / 2);}/*!sc*/
+code{font-size:0.85rem;line-height:1.45rem;}/*!sc*/
+kbd{font-size:0.85rem;line-height:1.45rem;}/*!sc*/
+samp{font-size:0.85rem;line-height:1.45rem;}/*!sc*/
+abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}/*!sc*/
+acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}/*!sc*/
+abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+thead{text-align:left;}/*!sc*/
+td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:'tnum';-moz-font-feature-settings:'tnum';-ms-font-feature-settings:'tnum';-webkit-font-feature-settings:'tnum';padding-left:0.96667rem;padding-right:0.96667rem;padding-top:0.725rem;padding-bottom:calc(0.725rem - 1px);}/*!sc*/
+th:first-child,td:first-child{padding-left:0;}/*!sc*/
+th:last-child,td:last-child{padding-right:0;}/*!sc*/
+tt,code{background-color:hsla(0,0%,0%,0.04);border-radius:3px;font-family:'SFMono-Regular',Consolas,'Roboto Mono','Droid Sans Mono', 'Liberation Mono',Menlo,Courier,monospace;padding:0;padding-top:0.2em;padding-bottom:0.2em;}/*!sc*/
+pre code{background:none;line-height:1.42;}/*!sc*/
+code:before,code:after,tt:before,tt:after{-webkit-letter-spacing:-0.2em;-moz-letter-spacing:-0.2em;-ms-letter-spacing:-0.2em;letter-spacing:-0.2em;content:' ';}/*!sc*/
+pre code:before,pre code:after,pre tt:before,pre tt:after{content:'';}/*!sc*/
+@media only screen and (max-width:480px){html{font-size:100%;}}/*!sc*/
+data-styled.g60[id="sc-global-hJnXzM1"]{content:"sc-global-hJnXzM1,"}/*!sc*/
+.md-code-title{position:relative;margin-bottom:-0.7rem;padding:0.5em 1em;font-family:Consolas,'Andale Mono WT','Andale Mono','Lucida Console', 'Lucida Sans Typewriter','DejaVu Sans Mono','Bitstream Vera Sans Mono', 'Liberation Mono','Nimbus Mono L',Monaco,'Courier New',Courier, monospace;background-color:#272822;color:white;z-index:2;border-top-left-radius:0.3em;border-top-right-radius:0.3em;border-bottom:0.3px solid #5b5b5b;}/*!sc*/
+pre[class*='language-']{border-radius:0.3em;}/*!sc*/
+code[class*='language-']{margin-right:5px;}/*!sc*/
+@media (max-width:768px){pre[class*='language-']{padding:2em 1em 1em 1em;}}/*!sc*/
+.gatsby-highlight{position:relative;-webkit-overflow-scrolling:touch;}/*!sc*/
+.gatsby-highlight pre[class*='language-']{-webkit-overflow-scrolling:touch;}/*!sc*/
+.gatsby-highlight pre[class*='language-']::before{background:black;border-radius:0 0 0.25rem 0.25rem;color:white;font-size:12px;-webkit-letter-spacing:0.025rem;-moz-letter-spacing:0.025rem;-ms-letter-spacing:0.025rem;letter-spacing:0.025rem;padding:0.1rem 0.5rem;position:absolute;right:1rem;text-align:right;text-transform:uppercase;top:0;}/*!sc*/
+.gatsby-highlight pre[class='language-js']::before{content:'js';background:#f7df1e;color:black;}/*!sc*/
+.gatsby-highlight pre[class='language-css']::before{content:'css';background:#0076d6;color:black;}/*!sc*/
+.gatsby-highlight pre[class='language-javascript']::before{content:'js';background:#f7df1e;color:black;}/*!sc*/
+.gatsby-highlight pre[class='language-js']::before{content:'js';background:#f7df1e;color:black;}/*!sc*/
+.gatsby-highlight pre[class='language-jsx']::before{content:'jsx';background:#61dafb;}/*!sc*/
+.gatsby-highlight pre[class='language-typescript']::before{content:'ts';background:#294e80;}/*!sc*/
+.gatsby-highlight pre[class='language-ts']::before{content:'ts';background:#294e80;}/*!sc*/
+.gatsby-highlight pre[class='language-tsx']::before{content:'tsx';background:#294e80;}/*!sc*/
+.gatsby-highlight pre[class='language-graphql']::before{content:'GraphQL';background:#e10098;}/*!sc*/
+.gatsby-highlight pre[class='language-html']::before{content:'html';background:#005a9c;}/*!sc*/
+.gatsby-highlight pre[class='language-css']::before{content:'css';background:#ff9800;}/*!sc*/
+.gatsby-highlight pre[class='language-mdx']::before{content:'mdx';background:#f9ac00;}/*!sc*/
+.gatsby-highlight pre[class='language-shell']::before{content:'shell';}/*!sc*/
+.gatsby-highlight pre[class='language-sh']::before{content:'sh';}/*!sc*/
+.gatsby-highlight pre[class='language-bash']::before{content:'bash';}/*!sc*/
+.gatsby-highlight pre[class='language-yaml']::before{content:'yaml';background:#ffa8df;}/*!sc*/
+.gatsby-highlight pre[class='language-markdown']::before{content:'md';}/*!sc*/
+.gatsby-highlight pre[class='language-json']::before,.gatsby-highlight pre[class='language-json5']::before{content:'json';background:#f7df1e;color:black;}/*!sc*/
+.gatsby-highlight pre[class='language-diff']::before{content:'diff';background:#e6ffed;}/*!sc*/
+.gatsby-highlight pre[class='language-text']::before{content:'text';background:'white';}/*!sc*/
+.gatsby-highlight pre[class='language-flow']::before{content:'flow';background:#e8bd36;}/*!sc*/
+.gatsby-highlight pre[class='language-php']::before{content:'php';background:#8993c1;color:black;}/*!sc*/
+data-styled.g61[id="sc-global-cXdtiO1"]{content:"sc-global-cXdtiO1,"}/*!sc*/
+</style><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/webpack-runtime-0f0adaf8070f51506805.js"/><link as="script" rel="preload" href="/framework-868c53fff4771b0bde98.js"/><link as="script" rel="preload" href="/styles-d34d6d50c68384cf0a65.js"/><link as="script" rel="preload" href="/app-c5f80d96037f6fb03ed6.js"/><link as="script" rel="preload" href="/29107295-6f6a0eba92190602eb95.js"/><link as="script" rel="preload" href="/commons-925b8bd4ee4780f361c1.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-tsx-812777f8892422031a46.js"/><link as="fetch" rel="preload" href="/page-data/blog/2020/08/routing-controllers/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="BlogLayoutStyles__Frame-t80b87-0 fOlVeb"><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionRelative MuiAppBar-colorPrimary HeaderStyles__Container-sc-4f1uz7-0 bQiNJJ MuiPaper-elevation4"><div class="HeaderStyles__LeftContainer-sc-4f1uz7-2 hqRgCM"><a class="HeaderStyles__TextLink-sc-4f1uz7-1 eIoNJO sv-left-logo" href="/"><p class="MuiTypography-root HeaderStyles__BlogLogo-sc-4f1uz7-6 jxNXEB MuiTypography-body1">SourceVortex</p></a></div><div class="HeaderStyles__CenterContainer-sc-4f1uz7-3 ifjTTZ"><a class="HeaderStyles__TextLink-sc-4f1uz7-1 eIoNJO" href="/"><p class="MuiTypography-root HeaderStyles__BlogLogo-sc-4f1uz7-6 jxNXEB MuiTypography-body1">SourceVortex</p></a></div><div class="HeaderStyles__RightContainer-sc-4f1uz7-4 hJwMUt"><svg class="MuiSvgIcon-root HeaderStyles__StySearchIcon-sc-4f1uz7-8 bOGhkd" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></header><div class="BlogLayoutStyles__Container-t80b87-1 gfSbPw"><main><div class="BlogTemplateStyles__Container-sc-1uzxn4d-0 bcBaID"><div class="BlogTemplateStyles__CoverContainer-sc-1uzxn4d-1 bGkscH"><div class="BlogTemplateStyles__CoverImage-sc-1uzxn4d-2 fehBjg gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:50%"></div><noscript><picture><source srcset="/static/c046ceae490cfed5458bd178f3ea4dfc/e1953/routing-controller.png 250w,
 /static/c046ceae490cfed5458bd178f3ea4dfc/46604/routing-controller.png 500w,
 /static/c046ceae490cfed5458bd178f3ea4dfc/31987/routing-controller.png 1000w,
 /static/c046ceae490cfed5458bd178f3ea4dfc/e4d72/routing-controller.png 1280w" sizes="(max-width: 1000px) 100vw, 1000px" /><img loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" srcset="/static/c046ceae490cfed5458bd178f3ea4dfc/e1953/routing-controller.png 250w,
 /static/c046ceae490cfed5458bd178f3ea4dfc/46604/routing-controller.png 500w,
 /static/c046ceae490cfed5458bd178f3ea4dfc/31987/routing-controller.png 1000w,
-/static/c046ceae490cfed5458bd178f3ea4dfc/e4d72/routing-controller.png 1280w" src="/static/c046ceae490cfed5458bd178f3ea4dfc/31987/routing-controller.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div class="BlogTemplateStyles__TitleContainer-sc-1vmz8r7-3 kagSPF"><h1 class="BlogTemplateStyles__Title-sc-1vmz8r7-4 DcHjV">Routing Controllers</h1><div class="BadgesStyles__Container-ca3d0s-0 buKFig"><div class="BadgesStyles__Badge-ca3d0s-1 xoDX"><p class="MuiTypography-root BadgesStyles__BadgeText-ca3d0s-2 gStDpH MuiTypography-body1" txtcolor="white">Typescript</p></div><div class="BadgesStyles__Badge-ca3d0s-1 eNugnP"><p class="MuiTypography-root BadgesStyles__BadgeText-ca3d0s-2 gPDLtX MuiTypography-body1" txtcolor="black">ExpressJS</p></div><div style="cursor:pointer" class="BadgesStyles__Badge-ca3d0s-1 jFHXDI"><p class="MuiTypography-root BadgesStyles__BadgeText-ca3d0s-2 gStDpH MuiTypography-body1">+</p></div></div></div></div><div class="BlogTemplateStyles__PostInfoContainer-sc-1vmz8r7-10 kIrOxl"><div class="BlogTemplateStyles__PostInfoSubContainer-sc-1vmz8r7-11 cUUUUA"><svg class="MuiSvgIcon-root BlogTemplateStyles__PostDateIcon-sc-1vmz8r7-12 eMSxUB" focusable="false" viewBox="0 0 24 24" color="gray" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg><h2 class="BlogTemplateStyles__PostDate-sc-1vmz8r7-13 hcZFEb">agosto 02, 2020 | 12:10</h2></div></div><div class="BlogTemplateStyles__PostContainer-sc-1vmz8r7-14 jiLyJH"><h3>Rotas do jeito "tradicional"</h3>
+/static/c046ceae490cfed5458bd178f3ea4dfc/e4d72/routing-controller.png 1280w" src="/static/c046ceae490cfed5458bd178f3ea4dfc/31987/routing-controller.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div class="BlogTemplateStyles__TitleContainer-sc-1uzxn4d-3 gYHPAU"><h1 class="BlogTemplateStyles__Title-sc-1uzxn4d-4 gGmLSg">Routing Controllers</h1><div class="BadgesStyles__Container-sc-1w5ma1w-0 fjQdKK"><div class="BadgesStyles__Badge-sc-1w5ma1w-1 erBJuh"><p class="MuiTypography-root BadgesStyles__BadgeText-sc-1w5ma1w-2 dFpuZZ MuiTypography-body1" txtcolor="white">Typescript</p></div><div class="BadgesStyles__Badge-sc-1w5ma1w-1 kcNpKF"><p class="MuiTypography-root BadgesStyles__BadgeText-sc-1w5ma1w-2 dDaeip MuiTypography-body1" txtcolor="black">ExpressJS</p></div><div style="cursor:pointer" class="BadgesStyles__Badge-sc-1w5ma1w-1 kFxMIC"><p class="MuiTypography-root BadgesStyles__BadgeText-sc-1w5ma1w-2 dFpuZZ MuiTypography-body1">+</p></div></div></div></div><div class="BlogTemplateStyles__PostInfoContainer-sc-1uzxn4d-10 iNxFvU"><div class="BlogTemplateStyles__PostInfoSubContainer-sc-1uzxn4d-11 iiJEGh"><svg class="MuiSvgIcon-root BlogTemplateStyles__PostDateIcon-sc-1uzxn4d-12 eWRQjI" focusable="false" viewBox="0 0 24 24" color="gray" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg><h2 class="BlogTemplateStyles__PostDate-sc-1uzxn4d-13 ljqZgu">agosto 02, 2020 | 12:10</h2></div></div><div class="BlogTemplateStyles__PostContainer-sc-1uzxn4d-14 gmVBKO"><h3 id="rotas-do-jeito-tradicional" style="position:relative;"><a href="#rotas-do-jeito-tradicional" aria-label="rotas do jeito tradicional permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rotas do jeito "tradicional"</h3>
 <p>Normalmente em aplicações construídas com ExpressJS precisamos criar um arquivo (ou arquivos) para definir as rotas, por exemplo:</p>
 <div class="gatsby-code-title md-code-title">routes/userRouter.js</div>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
@@ -89,7 +266,7 @@ router
 <span class="token comment">// ...</span></code></pre></div>
 <p>Neste exemplo as rotas de usuários possui um arquivo próprio e se utiliza do <strong>userController</strong> e seus métodos, e conforme essa aplicação crescer, mais arquivos de rotas e controllers serão criados para cada módulo, ou seja, dois arquivos para cada módulo.</p>
 <p>Porém, um padrão muito utilizado em alguns <strong><em>frameworks</em></strong> é usar apenas o arquivo de <strong><em>controller</em></strong> para definir as rotas, e isso é possível através de <strong><em>annotations</em></strong> ou <strong><em>decorators</em></strong>.</p>
-<h2>Annotations/Decorators</h2>
+<h2 id="annotationsdecorators" style="position:relative;"><a href="#annotationsdecorators" aria-label="annotationsdecorators permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Annotations/Decorators</h2>
 <p>De uma forma geral, esse recurso consiste em adicionar em seu código uma sintaxe que "intercepta" um método ou classe para manipular seu comportamento. Para utilizarmos esse recurso no ExpressJS precisamos usar <strong><em>typescript</em></strong> e habilitar o uso de <strong><em>decorators</em></strong> no arquivo <code class="language-text">tsconfig.json</code>, desta forma:</p>
 <div class="gatsby-code-title md-code-title">tsconfig.json</div>
 <div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
@@ -101,7 +278,7 @@ router
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p>Além disso vamos precisar instalar uma biblioteca chamada <strong><em>Routing Controllers</em></strong>.</p>
-<h3>Routing Controllers</h3>
+<h3 id="routing-controllers" style="position:relative;"><a href="#routing-controllers" aria-label="routing controllers permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Routing Controllers</h3>
 <p>A biblioteca <a href="https://github.com/typestack/routing-controllers">routing controllers</a> permite usarmos diversos <strong><em>decorators</em></strong> já prontos para implementar o sistema de roteamento de nossa aplicação. Não só isso, mas é possível utilizá-la para validações dos objetos enviados nas requisições, mas falaremos disso em um outro momento.</p>
 <p>Enquanto da forma "tradicional" precisávamos de pelo menos dois arquivos por módulo, agora podemos ter apenas um. Seguindo o exemplo anterior, porém usando essa biblioteca nós teríamos algo assim:</p>
 <div class="gatsby-code-title md-code-title">controllers/UserController.ts</div>
@@ -121,4 +298,20 @@ router
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre></div>
 <p>Viu, que simples?! O decorator <strong>@JsonController</strong> usado acima da classe determina o prefixo de todas as rotas do arquivo, enquanto o <strong>@Post</strong> e <strong>@Get</strong> representa os verbos HTTP (podem conter também sufixos caso necessário).</p>
-<p>Caso tenha interesse no processo de configuração e queira um exemplo mais completo, confira <a href="https://github.com/sourcevortex/express-template">esse template</a> onde foi utilizado esse padrão juntamento com MongoDB.</p></div></div><div class="BlogTemplateStyles__FooterContainer-sc-1vmz8r7-15 jfBhTn"><div class="BackLinkStyles__Container-sc-4tls06-0 VfeLv"><a title="Voltar para o blog" class="BackLinkStyles__StyTooltip-sc-4tls06-1 cnngeK" href="/"><svg class="MuiSvgIcon-root BackLinkStyles__BackIcon-sc-4tls06-2 jFuVXy" focusable="false" viewBox="0 0 24 24" color="white" aria-hidden="true"><path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"></path></svg></a></div></div></main><div class="FloatEditStyles__Container-sc-8lzt4m-0 fERyae"><a href="https://github.com/SourceVortex/sourcevortex-site-data/blob/master/_posts/2020/08/routing-controllers.md" target="_blank" class="FloatEditStyles__StyLink-sc-8lzt4m-1 fHpCEe"><button class="MuiButtonBase-root MuiFab-root FloatEditStyles__StyFab-sc-8lzt4m-2 PmQYs MuiFab-sizeMedium" tabindex="0" type="button" aria-label="edit"><span class="MuiFab-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></svg></span></button></a></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/2020/08/routing-controllers";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-b646d61895300b3c4f73.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-b003e87f08aecc3ef6fd.js"],"component---src-pages-blog-index-ts":["/component---src-pages-blog-index-ts-11c4f6b81b414b461426.js"],"component---src-pages-projects-index-ts":["/component---src-pages-projects-index-ts-500d2d4d459039236021.js"],"component---src-templates-blog-template-tsx":["/component---src-templates-blog-template-tsx-adcda107eb01055857db.js"],"component---src-views-blog-blog-tsx":["/component---src-views-blog-blog-tsx-8f9daccd521dc2cec856.js"]};/*]]>*/</script><script src="/component---src-templates-blog-template-tsx-adcda107eb01055857db.js" async=""></script><script src="/823d2cd91e3ab101de8462f2bb2e0239c0ee9d02-848b62abcb50a7bd42e1.js" async=""></script><script src="/commons-462d7f5fe6a41d6e3114.js" async=""></script><script src="/29107295-3b1a3b15a9f64eac8b0f.js" async=""></script><script src="/styles-89fd2ae28bdf06750a71.js" async=""></script><script src="/app-b646d61895300b3c4f73.js" async=""></script><script src="/framework-95b680cb3190aa9bfe59.js" async=""></script><script src="/webpack-runtime-1d169cd2627a106c734a.js" async=""></script></body></html>
+<p>Caso tenha interesse no processo de configuração e queira um exemplo mais completo, confira <a href="https://github.com/sourcevortex/express-template">esse template</a> onde foi utilizado esse padrão juntamento com MongoDB.</p></div></div><div class="BlogTemplateStyles__FooterContainer-sc-1uzxn4d-15 gyCFhy"><div class="BlogTemplateStyles__FooterButtonsContainer-sc-1uzxn4d-16 lhLxEk"><div class="BlogTemplateStyles__FooterButtonsContainerLeft-sc-1uzxn4d-17 kVXVsq"><div class="BackLinkStyles__Container-ddu4of-0 cjmdPr"><a title="Voltar para o blog" class="BackLinkStyles__StyTooltip-ddu4of-1 cPcBcG" href="/"><svg class="MuiSvgIcon-root BackLinkStyles__BackIcon-ddu4of-2 LOPmW" focusable="false" viewBox="0 0 24 24" color="white" aria-hidden="true"><path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"></path></svg></a></div></div><div class="BlogTemplateStyles__FooterButtonsContainerRight-sc-1uzxn4d-18 itWPQe"><div class="ButtonEditStyles__Container-sc-45h9ii-0 uSdrT"><a href="https://github.com/SourceVortex/sourcevortex-site-data/blob/master/_posts/2020/08/routing-controllers.md" target="_blank" title="Editar no github" class="ButtonEditStyles__StyTooltip-sc-45h9ii-1 fHqPVG"><svg class="MuiSvgIcon-root ButtonEditStyles__StyEditIcon-sc-45h9ii-2 jpyUNX" focusable="false" viewBox="0 0 24 24" color="white" aria-hidden="true"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></svg></a></div></div></div></div></main></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-178428368-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/2020/08/routing-controllers";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-c5f80d96037f6fb03ed6.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-a9bb0a1b9afe3861f269.js"],"component---src-templates-blog-template-tsx":["/component---src-templates-blog-template-tsx-812777f8892422031a46.js"],"component---src-views-blog-index-tsx":["/component---src-views-blog-index-tsx-6456a18b04066cabd3a4.js"]};/*]]>*/</script><script src="/component---src-templates-blog-template-tsx-812777f8892422031a46.js" async=""></script><script src="/commons-925b8bd4ee4780f361c1.js" async=""></script><script src="/29107295-6f6a0eba92190602eb95.js" async=""></script><script src="/app-c5f80d96037f6fb03ed6.js" async=""></script><script src="/styles-d34d6d50c68384cf0a65.js" async=""></script><script src="/framework-868c53fff4771b0bde98.js" async=""></script><script src="/webpack-runtime-0f0adaf8070f51506805.js" async=""></script></body></html>

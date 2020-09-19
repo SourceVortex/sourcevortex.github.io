@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: sourcevortex/sourcevortex-gatsby-template
+media_folder: static/assets/posts
+public_folder: /assets
+collections:
+  - name: blog
+    label: Blog
+    folder: content/posts
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
